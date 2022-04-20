@@ -1,0 +1,130 @@
+.topnav{
+    background-color: #AAE7C0;
+    overflow: hidden;
+    padding: 14px 16px;
+}
+.menu{
+    letter-spacing: 5px;
+    text-align: center;
+    word-spacing: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Aldrich', sans-serif;
+    font-family: 'Candal', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding-left: 25%;
+    padding-bottom: 50%;
+}
+.profile{
+    display: flex;
+    float: left;
+    height: auto;
+    width: 25%;
+    /*don't know how to make the image into a different shape without alternating the image quality.
+    transform: skew(-20deg);
+    */
+}
+
+/*----SECTION1 ----*/
+.bio{
+    display: block;
+    padding-left: 32%;
+    padding-right: 35%;
+}
+
+/*buttons moved to the right
+.buttonsRight{
+    display: block;
+    float: right;
+    padding-right: 15%;
+}
+*/
+
+button{
+    background-color: #238158;
+    color: white;
+    margin: 4px 2px;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: white;
+    color: #238158;
+    stroke: #238158 1px;
+}
+
+button:active{
+    background-color: #1C6344;
+    color: white;
+}
+
+.linkedin {
+    height: 50px;
+}
+
+/*---- SECTION2 ----*/
+section2{
+    display: block;
+    padding-left: 27%;
+    padding-top: 2%;
+}
+.horizontalLine{
+    border-top: 3px solid rgb(0, 0, 0);
+}
+
+/*---- My Skills ----*/
+.skills{
+    display: block;
+    columns: 4;
+    margin-right: 15%;
+}
+.miroImage {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.figmaImage {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.happyImage {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.feedbackImage {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.skills p{
+    text-align: left;
+}
+
+/*---- phone resizing ----*/
+@media only screen and (max-width: 1000px) {
+    #navigation {
+      display: none;
+    }
+    .icons {
+      margin-left: auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #headline {
+      position: static;
+      margin: 20px;
+    }
+    }
+    #categoryGrid {
+      grid-template-rows: 300px 300px ;
+      grid-template-columns: 1fr;
+    }

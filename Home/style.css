@@ -1,0 +1,107 @@
+.topnav{
+    background-color: #AAE7C0;
+    overflow: hidden;
+    padding: 14px 16px;
+}
+.topnav a{
+    letter-spacing: 5px;
+    text-align: center;
+    word-spacing: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Aldrich', sans-serif;
+    font-family: 'Candal', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding-left: 25%;
+    padding-bottom: 50%;
+}
+
+.centerHero{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.projects{
+    display: block;
+    grid-template-areas: "broommates treasury outboulder";
+    padding-right: 15%;
+}
+
+section h2{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 5%;
+}
+.vectorCenter{
+    float: left;
+    height: 20%;
+    width: 20%;
+    padding-left: 5%;
+    padding-top: 25%;
+}
+.flex-container{
+    display: grid;
+    gap: 25px 25px;
+    padding-left: 15%;
+}
+
+/* BROOMmates*/
+.broommates{
+    display: block;
+}
+.broommatesImage{
+    display: block;
+    float: left;
+    height: 200px;
+}
+.broommatesText{
+    float: right;
+}
+
+/* Treasury*/
+.treasury{
+    display: block;
+}
+.treasuryImage{
+    display: block;
+    float: left;
+    height:200px;
+}
+.treasuryText{
+    float: right;
+}
+
+/* OutBoulder*/
+.outboulder{
+    display: block;
+}
+.outboulderImage{
+    float: left;
+    height: 200px;
+}
+.outboulderText{
+    float: right;
+}
+
+@media only screen and (max-width: 1000px) {
+    #navigation {
+      display: none;
+    }
+    .icons {
+      margin-left: auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #headline {
+      position: static;
+      margin: 20px;
+    }
+    }
+    #categoryGrid {
+      grid-template-rows: 300px 300px ;
+      grid-template-columns: 1fr;
+    }

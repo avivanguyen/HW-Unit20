@@ -36,7 +36,6 @@
 
 .grid-container > div {
   background-color: #CFB391;
-  padding: 20px 0;
 }
 
 /* Anchor menu */
@@ -107,13 +106,27 @@
 }
 .swot img{
     height: 600px;
-
 }
 .swotText{
     float:right;
     margin-left: 100px;
     margin-right: 90px;
     margin-top: 40px;
+}
+
+.userFlow{
+    background-color: #CFB391;
+    padding-top: 100px;
+}
+.userFlow img{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+.userFlow h2 p{
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 

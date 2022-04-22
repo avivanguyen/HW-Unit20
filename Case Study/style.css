@@ -101,8 +101,15 @@
     text-align: center;
 }
 
+.swot{
+    background-color: #CFB391;
+}
+.swot img{
+    height: 100px;
+}
 
-/* Research */
+
+/* Iterations & Prototype */
 .itANDpro{
     background-color: #CFB391;
 }

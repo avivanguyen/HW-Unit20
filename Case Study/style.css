@@ -103,9 +103,15 @@
 
 .swot{
     background-color: #CFB391;
+    display: flex;
 }
 .swot img{
-    height: 100px;
+    height: 600px;
+
+}
+.swotText{
+    float:right;
+    margin-left: 500px;
 }
 
 
